@@ -1,0 +1,17 @@
+{
+  "name": "@app/rust-testing-freebsd-x64",
+  "version": "0.0.0",
+  "os": [
+    "freebsd"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "rust_testing.freebsd-x64.node",
+  "files": [
+    "rust_testing.freebsd-x64.node"
+  ],
+  "engines": {
+    "node": ">= 10"
+  }
+}

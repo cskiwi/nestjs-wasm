@@ -1,0 +1,9 @@
+
+[workspace]
+resolver = '2'
+members = [
+	'libs/rust/testing',
+]
+
+[profile.release]
+lto = true

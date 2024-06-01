@@ -1,0 +1,17 @@
+{
+  "name": "@app/rust-testing-linux-arm-gnueabihf",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "rust_testing.linux-arm-gnueabihf.node",
+  "files": [
+    "rust_testing.linux-arm-gnueabihf.node"
+  ],
+  "engines": {
+    "node": ">= 10"
+  }
+}

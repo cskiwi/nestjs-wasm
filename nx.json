@@ -70,7 +70,8 @@
         "serveTargetName": "serve",
         "previewTargetName": "preview"
       }
-    }
+    },
+    "@monodon/rust"
   ],
   "generators": {
     "@nx/angular:application": {
