@@ -18,18 +18,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: oven-sh/setup-bun@v1
+      - uses: actions/setup-node@v4
         with:
-          bun-version: latest
+          node-version: 20.x
 
-      - run: bun install --no-cache
+      - run: npm install --no-cache
       - uses: nrwl/nx-set-shas@v4
 
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - run: bun nx affected -t lint test build
-      - run: bun nx affected --parallel 1 -t e2e-ci
+      - run: npx nx affected -t lint test build
+      - run: npx nx affected --parallel 1 -t e2e-ci
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
