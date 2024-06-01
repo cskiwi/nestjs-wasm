@@ -4,7 +4,8 @@
   "dependencies": {
     "tslib": "^2.3.0",
     "@nestjs/common": "^10.3.8",
-    "express": "~4.19.2"
+    "express": "~4.19.2",
+    "@app/rust-testing": "0.0.0"
   },
   "type": "commonjs",
   "main": "./src/index.js",
