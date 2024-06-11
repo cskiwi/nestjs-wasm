@@ -16,7 +16,7 @@
           "dist": "dist/rust_testing",
           "release": true
         }
-      }
+      } 
     },
     "test": {
       "executor": "@monodon/rust:test",
